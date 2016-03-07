@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC6BCA221C8900B300CD8DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BCA211C8900B300CD8DCE /* AppDelegate.swift */; };
+		BC6BCA241C8900B300CD8DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BCA231C8900B300CD8DCE /* ViewController.swift */; };
+		BC6BCA271C8900B300CD8DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6BCA251C8900B300CD8DCE /* Main.storyboard */; };
+		BC6BCA291C8900B300CD8DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6BCA281C8900B300CD8DCE /* Assets.xcassets */; };
+		BC6BCA2C1C8900B300CD8DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6BCA2A1C8900B300CD8DCE /* LaunchScreen.storyboard */; };
+		BC6BCA371C8900B300CD8DCE /* SectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BCA361C8900B300CD8DCE /* SectionsTests.swift */; };
+		BC6BCA421C8900B300CD8DCE /* SectionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BCA411C8900B300CD8DCE /* SectionsUITests.swift */; };
+		BC6BCA541C893AA700CD8DCE /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BCA531C893AA700CD8DCE /* SearchResultsController.swift */; };
+		BCDEB6F01C8A8C3600316190 /* winevendors.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCDEB6EF1C8A8C3600316190 /* winevendors.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC6BCA331C8900B300CD8DCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC6BCA161C8900B300CD8DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6BCA1D1C8900B300CD8DCE;
+			remoteInfo = Sections;
+		};
+		BC6BCA3E1C8900B300CD8DCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC6BCA161C8900B300CD8DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6BCA1D1C8900B300CD8DCE;
+			remoteInfo = Sections;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC6BCA1E1C8900B300CD8DCE /* MyWineLists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWineLists.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6BCA211C8900B300CD8DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC6BCA231C8900B300CD8DCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC6BCA261C8900B300CD8DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC6BCA281C8900B300CD8DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC6BCA2B1C8900B300CD8DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC6BCA2D1C8900B300CD8DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6BCA321C8900B300CD8DCE /* MyWineLists.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWineLists.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6BCA361C8900B300CD8DCE /* SectionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsTests.swift; sourceTree = "<group>"; };
+		BC6BCA381C8900B300CD8DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6BCA3D1C8900B300CD8DCE /* MyWineLists.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWineLists.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6BCA411C8900B300CD8DCE /* SectionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsUITests.swift; sourceTree = "<group>"; };
+		BC6BCA431C8900B300CD8DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6BCA531C893AA700CD8DCE /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+		BCDEB6EF1C8A8C3600316190 /* winevendors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = winevendors.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC6BCA1B1C8900B300CD8DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6BCA2F1C8900B300CD8DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6BCA3A1C8900B300CD8DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC6BCA151C8900B300CD8DCE = {
+			isa = PBXGroup;
+			children = (
+				BC6BCA201C8900B300CD8DCE /* MyWineList */,
+				BC6BCA351C8900B300CD8DCE /* MyWineListTests */,
+				BC6BCA401C8900B300CD8DCE /* MyWineListUITests */,
+				BC6BCA1F1C8900B300CD8DCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC6BCA1F1C8900B300CD8DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC6BCA1E1C8900B300CD8DCE /* MyWineLists.app */,
+				BC6BCA321C8900B300CD8DCE /* MyWineLists.xctest */,
+				BC6BCA3D1C8900B300CD8DCE /* MyWineLists.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC6BCA201C8900B300CD8DCE /* MyWineList */ = {
+			isa = PBXGroup;
+			children = (
+				BCDEB6EF1C8A8C3600316190 /* winevendors.plist */,
+				BC6BCA211C8900B300CD8DCE /* AppDelegate.swift */,
+				BC6BCA231C8900B300CD8DCE /* ViewController.swift */,
+				BC6BCA251C8900B300CD8DCE /* Main.storyboard */,
+				BC6BCA281C8900B300CD8DCE /* Assets.xcassets */,
+				BC6BCA2A1C8900B300CD8DCE /* LaunchScreen.storyboard */,
+				BC6BCA2D1C8900B300CD8DCE /* Info.plist */,
+				BC6BCA531C893AA700CD8DCE /* SearchResultsController.swift */,
+			);
+			name = MyWineList;
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		BC6BCA351C8900B300CD8DCE /* MyWineListTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC6BCA361C8900B300CD8DCE /* SectionsTests.swift */,
+				BC6BCA381C8900B300CD8DCE /* Info.plist */,
+			);
+			name = MyWineListTests;
+			path = SectionsTests;
+			sourceTree = "<group>";
+		};
+		BC6BCA401C8900B300CD8DCE /* MyWineListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC6BCA411C8900B300CD8DCE /* SectionsUITests.swift */,
+				BC6BCA431C8900B300CD8DCE /* Info.plist */,
+			);
+			name = MyWineListUITests;
+			path = SectionsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC6BCA1D1C8900B300CD8DCE /* MyWineLists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6BCA461C8900B300CD8DCE /* Build configuration list for PBXNativeTarget "MyWineLists" */;
+			buildPhases = (
+				BC6BCA1A1C8900B300CD8DCE /* Sources */,
+				BC6BCA1B1C8900B300CD8DCE /* Frameworks */,
+				BC6BCA1C1C8900B300CD8DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWineLists;
+			productName = Sections;
+			productReference = BC6BCA1E1C8900B300CD8DCE /* MyWineLists.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC6BCA311C8900B300CD8DCE /* MyWineListsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6BCA491C8900B300CD8DCE /* Build configuration list for PBXNativeTarget "MyWineListsTests" */;
+			buildPhases = (
+				BC6BCA2E1C8900B300CD8DCE /* Sources */,
+				BC6BCA2F1C8900B300CD8DCE /* Frameworks */,
+				BC6BCA301C8900B300CD8DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC6BCA341C8900B300CD8DCE /* PBXTargetDependency */,
+			);
+			name = MyWineListsTests;
+			productName = SectionsTests;
+			productReference = BC6BCA321C8900B300CD8DCE /* MyWineLists.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC6BCA3C1C8900B300CD8DCE /* MyWineListsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6BCA4C1C8900B300CD8DCE /* Build configuration list for PBXNativeTarget "MyWineListsUITests" */;
+			buildPhases = (
+				BC6BCA391C8900B300CD8DCE /* Sources */,
+				BC6BCA3A1C8900B300CD8DCE /* Frameworks */,
+				BC6BCA3B1C8900B300CD8DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC6BCA3F1C8900B300CD8DCE /* PBXTargetDependency */,
+			);
+			name = MyWineListsUITests;
+			productName = SectionsUITests;
+			productReference = BC6BCA3D1C8900B300CD8DCE /* MyWineLists.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC6BCA161C8900B300CD8DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Steve D'Amico";
+				TargetAttributes = {
+					BC6BCA1D1C8900B300CD8DCE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BC6BCA311C8900B300CD8DCE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BC6BCA1D1C8900B300CD8DCE;
+					};
+					BC6BCA3C1C8900B300CD8DCE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BC6BCA1D1C8900B300CD8DCE;
+					};
+				};
+			};
+			buildConfigurationList = BC6BCA191C8900B300CD8DCE /* Build configuration list for PBXProject "MyWineLists" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC6BCA151C8900B300CD8DCE;
+			productRefGroup = BC6BCA1F1C8900B300CD8DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC6BCA1D1C8900B300CD8DCE /* MyWineLists */,
+				BC6BCA311C8900B300CD8DCE /* MyWineListsTests */,
+				BC6BCA3C1C8900B300CD8DCE /* MyWineListsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC6BCA1C1C8900B300CD8DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6BCA2C1C8900B300CD8DCE /* LaunchScreen.storyboard in Resources */,
+				BC6BCA291C8900B300CD8DCE /* Assets.xcassets in Resources */,
+				BC6BCA271C8900B300CD8DCE /* Main.storyboard in Resources */,
+				BCDEB6F01C8A8C3600316190 /* winevendors.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6BCA301C8900B300CD8DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6BCA3B1C8900B300CD8DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC6BCA1A1C8900B300CD8DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6BCA241C8900B300CD8DCE /* ViewController.swift in Sources */,
+				BC6BCA541C893AA700CD8DCE /* SearchResultsController.swift in Sources */,
+				BC6BCA221C8900B300CD8DCE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6BCA2E1C8900B300CD8DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6BCA371C8900B300CD8DCE /* SectionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6BCA391C8900B300CD8DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6BCA421C8900B300CD8DCE /* SectionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC6BCA341C8900B300CD8DCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC6BCA1D1C8900B300CD8DCE /* MyWineLists */;
+			targetProxy = BC6BCA331C8900B300CD8DCE /* PBXContainerItemProxy */;
+		};
+		BC6BCA3F1C8900B300CD8DCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC6BCA1D1C8900B300CD8DCE /* MyWineLists */;
+			targetProxy = BC6BCA3E1C8900B300CD8DCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC6BCA251C8900B300CD8DCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6BCA261C8900B300CD8DCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC6BCA2A1C8900B300CD8DCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6BCA2B1C8900B300CD8DCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC6BCA441C8900B300CD8DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC6BCA451C8900B300CD8DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC6BCA471C8900B300CD8DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sections/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.Sections;
+				PRODUCT_NAME = MyWineLists;
+			};
+			name = Debug;
+		};
+		BC6BCA481C8900B300CD8DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sections/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.Sections;
+				PRODUCT_NAME = MyWineLists;
+			};
+			name = Release;
+		};
+		BC6BCA4A1C8900B300CD8DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SectionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.SectionsTests;
+				PRODUCT_NAME = MyWineLists;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWineLists.app/MyWineLists";
+			};
+			name = Debug;
+		};
+		BC6BCA4B1C8900B300CD8DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SectionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.SectionsTests;
+				PRODUCT_NAME = MyWineLists;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWineLists.app/MyWineLists";
+			};
+			name = Release;
+		};
+		BC6BCA4D1C8900B300CD8DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SectionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.SectionsUITests;
+				PRODUCT_NAME = MyWineLists;
+				TEST_TARGET_NAME = Sections;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC6BCA4E1C8900B300CD8DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SectionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CTMI.SectionsUITests;
+				PRODUCT_NAME = MyWineLists;
+				TEST_TARGET_NAME = Sections;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC6BCA191C8900B300CD8DCE /* Build configuration list for PBXProject "MyWineLists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6BCA441C8900B300CD8DCE /* Debug */,
+				BC6BCA451C8900B300CD8DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6BCA461C8900B300CD8DCE /* Build configuration list for PBXNativeTarget "MyWineLists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6BCA471C8900B300CD8DCE /* Debug */,
+				BC6BCA481C8900B300CD8DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6BCA491C8900B300CD8DCE /* Build configuration list for PBXNativeTarget "MyWineListsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6BCA4A1C8900B300CD8DCE /* Debug */,
+				BC6BCA4B1C8900B300CD8DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6BCA4C1C8900B300CD8DCE /* Build configuration list for PBXNativeTarget "MyWineListsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6BCA4D1C8900B300CD8DCE /* Debug */,
+				BC6BCA4E1C8900B300CD8DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC6BCA161C8900B300CD8DCE /* Project object */;
+}

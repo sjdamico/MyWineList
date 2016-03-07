@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Barefoot</key>
+	<array>
+		<string>Chardonnay</string>
+		<string>Moscato</string>
+		<string>Pink Moscato</string>
+		<string>Pinot Grigio</string>
+	</array>
+	<key>Cedar Creek</key>
+	<array>
+		<string>Port Rose</string>
+		<string>Settlement Gold</string>
+		<string>Waterfall Riesling</string>
+	</array>
+	<key>Galena Cellars</key>
+	<array>
+		<string>Chardonnay</string>
+		<string>Country Red</string>
+		<string>Frontenac Port</string>
+		<string>Riesling</string>
+	</array>
+	<key>Peninsula</key>
+	<array>
+		<string>Peninsula Red</string>
+	</array>
+	<key>Simon Creek</key>
+	<array>
+		<string>Jackson Port</string>
+		<string>Light Sweet Muscat</string>
+		<string>Speakeasy Red</string>
+	</array>
+	<key>Stones Throw</key>
+	<array>
+		<string>Rose</string>
+	</array>
+	<key>Wollersheim</key>
+	<array>
+		<string>Port</string>
+		<string>Prairie Blush</string>
+		<string>River Gold</string>
+		<string>White Riesling</string>
+	</array>
+</dict>
+</plist>
